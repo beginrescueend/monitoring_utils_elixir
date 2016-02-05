@@ -3,6 +3,8 @@ defmodule Util.Monitor do
 
   @moduledoc """
   Util.Monitor - functions to ping a single address or to ping a list, in parallel
+
+  This was heavily inspired by https://github.com/seven1m/30-days-of-elixir/blob/master/09-ping.exs
   """
 
   @doc """
